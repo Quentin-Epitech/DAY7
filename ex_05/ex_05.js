@@ -14,8 +14,7 @@ function findClosestResult(functionsObj, inputNumber, outputNumber) {
 const fonctionn = {
     multipleByEight: (x) => x * 8,
     square: (x) => x * x,
-    addSixty: (x) => x + 60
-};
+    addSixty: (x) => x + 60};
 
 console.log(findClosestResult(fonctionn, 5, 26)); 
 console.log(findClosestResult(fonctionn, 10, 5)); 
